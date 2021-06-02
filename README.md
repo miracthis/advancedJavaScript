@@ -1,2 +1,2 @@
 # advancedJavaScript
- Java Script / Create Work Area
+Base repository for Siemens Advanced JS Course
