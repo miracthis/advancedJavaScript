@@ -21,28 +21,30 @@ let showProducts = function (id, ...products) {
   //*******************Destructuring*******************//
   
   //for List
-  let populations = [10000,20000,30000,[40000,10000]]
+  let populations = [10000,20000,30000,[40000,10000],"Ankara"]
+
+  console.log(populations);
   
   let [small,medium,high,[veryHigh,maximum]] = populations;
   
-  console.log(small)
-  console.log(medium)
-  console.log(high)
-  console.log(veryHigh)
-  console.log(maximum)
+  console.log(small);
+  console.log(medium);
+  console.log(high);
+  console.log(veryHigh);
+  console.log(maximum);
   
   
   function someFunction([small1],number){
-      console.log(small1)
+      console.log(small1);
   }
-  someFunction(populations)
+  someFunction(populations);
   
   // for Object
   let category = {id:1, name:"İçecek"}
-  console.log(category.id)
+  console.log(category.id);
   console.log(category["name"])
   
   let {id,name} = category
-  console.log(id)
-  console.log(name)
+  console.log(id);
+  console.log(name);
   

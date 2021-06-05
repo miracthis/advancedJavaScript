@@ -12,6 +12,7 @@ function save(puan = 10, ogrenci) {
 
 let students = ["Öğrenci 1", "Öğrenci 2", "Öğrenci 3"];
 
+
 //console.log(students)
 
 let students2 = [
